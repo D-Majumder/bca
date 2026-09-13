@@ -1,39 +1,40 @@
-<h1 align="center" id="title">BCA TIMETABLE</h1>
+# BCA Timetable
 
-<p align="center"><img src="https://socialify.git.ci/D-Majumder/BCA/image?font=Raleway&amp;forks=1&amp;issues=1&amp;language=1&amp;name=1&amp;owner=1&amp;pattern=Floating+Cogs&amp;pulls=1&amp;stargazers=1&amp;theme=Auto" alt="project-image"></p>
+A real-time class schedule web application built for the BCA department.
 
-<p id="description">A dynamic real-time class schedule web application built for the BCA department. This tool provides live class information announcements and full weekly schedules in a clean responsive interface with an automatic day/night theme.</p>
+## Live demo
 
-<p align="center"><img src="https://img.shields.io/badge/HTML5-blue%20" alt="shields"><img src="https://img.shields.io/badge/CSS_3--green%20" alt="shields"><img src="https://img.shields.io/badge/Vanilla-orange" alt="shields"><img src="https://img.shields.io/badge/Vercel-Yellow" alt="shields"></p>
+https://bca-umber.vercel.app/
 
-<h2>🚀 Demo</h2>
+## Overview
 
-[https://bca-umber.vercel.app/](https://bca-umber.vercel.app/)
+This tool provides live class information, announcements, and full weekly schedules in a responsive interface with an automatic day/night theme.
 
-  
-  
-<h2>🧐 Features</h2>
+## Features
 
-Here're some of the project's best features:
+- **Live class info** — automatically shows the current class and the next upcoming class.
+- **Dynamic theming** — switches between a day/night theme based on Indian Standard Time, with a manual override toggle.
+- **Full schedule viewer** — view the complete weekly schedule for any year and batch.
+- **Admin dashboard** — a secure, password-protected portal to manage timetables, subjects, teachers, and announcements without touching any code.
+- **PWA-ready** — installable on mobile devices for an app-like experience.
 
-*   Live Class Info: Automatically shows the current class and the next upcoming class.
-*   Dynamic Theming: Switches between a beautiful Day/Night theme based on Indian Standard Time with a manual override toggle.
-*   Full Schedule Viewer: View the complete weekly schedule for any year and batch.
-*   Admin Dashboard: A secure password-protected portal to manage all timetables subjects teachers and announcements without touching any code.
-*   PWA Ready: The site is fully installable on mobile devices for an app-like experience.
+## Tech stack
 
-  
-  
-<h2>💻 Built with</h2>
+- Frontend: HTML5, CSS3, vanilla JavaScript
+- Backend & database: Supabase (PostgreSQL)
+- Hosting: Vercel
 
-Technologies used in the project:
+## Setup
 
-*   Frontend: HTML5 CSS3 Vanilla JavaScript
-*   Backend & Database: Supabase (PostgreSQL)
-*   Hosting: Vercel
+```bash
+git clone https://github.com/D-Majumder/bca.git
+cd bca
+```
 
-<h2> ⚖️ License & Copyright </h2>
+Open `index.html` directly, or serve the folder with any static file server. Backend configuration (Supabase URL/key) is set in the JavaScript source.
 
-© 2025 Dhruba Majumder. All Rights Reserved.
+## License
+
+© 2025 Dhruba Majumder. All rights reserved.
 
 This project is proprietary and closed source. You may view the code for educational purposes, but you are not permitted to copy, modify, distribute, or use any part of this code for your own projects without explicit written permission from the author.
